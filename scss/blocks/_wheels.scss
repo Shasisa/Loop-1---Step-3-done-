@@ -1,0 +1,77 @@
+.simples {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+
+    .simple-wheels {
+        font-family: "Roboto";
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+
+        .simple-title {
+            margin-top: 0;
+            margin-bottom: 2px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .account {
+            margin-right: 0px;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(251, 255, 255);
+            border-radius: 50%;
+            border: 1px solid rgba(146, 144, 144, 0.486);
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 1px 1px 5px 5px rgba(168, 167, 167, 0.575);
+            }
+        }
+    }
+
+    .thanks {
+        width: 550px;
+        margin-bottom: 25px;
+        font-size: 16px;
+        margin-top: 2px;
+        font-family: "Roboto";
+        color: rgba(128, 128, 128, 0.753);
+    }
+
+    .all-expenses {
+        font-family: "Roboto";
+
+        .expense {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Roboto';
+            font-weight: 100;
+
+            p {
+                //letter-spacing: 1px;
+                color: rgb(71, 70, 70);
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Roboto';
+        margin-top: 0;
+
+        h2 {
+            color: rgb(58, 57, 57);
+        }
+    }
+}

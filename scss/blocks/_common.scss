@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto" sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgb(20, 145, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .container {
+        max-width: 2000px;
+
+        .wheels {
+            border-radius: 8px;
+            width: 620px;
+            height: 500px;
+            background-position: center bottom;
+            background-color: white;
+            background-image: url("../assets/img/bicycle.png");
+            background-size: 650px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+* {
+  font-family: "Roboto" sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(20, 145, 124);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .container {
+  max-width: 2000px;
+}
+body .container .wheels {
+  border-radius: 8px;
+  width: 620px;
+  height: 500px;
+  background-position: center bottom;
+  background-color: white;
+  background-image: url("../assets/img/bicycle.png");
+  background-size: 650px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.simples {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+.simples .simple-wheels {
+  font-family: "Roboto";
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.simples .simple-wheels .simple-title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.simples .simple-wheels .account {
+  margin-right: 0px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(251, 255, 255);
+  border-radius: 50%;
+  border: 1px solid rgba(146, 144, 144, 0.486);
+}
+.simples .simple-wheels .account:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 5px rgba(168, 167, 167, 0.575);
+}
+.simples .thanks {
+  width: 550px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  margin-top: 2px;
+  font-family: "Roboto";
+  color: rgba(128, 128, 128, 0.753);
+}
+.simples .all-expenses {
+  font-family: "Roboto";
+}
+.simples .all-expenses .expense {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+.simples .all-expenses .expense p {
+  color: rgb(71, 70, 70);
+  font-size: 18px;
+  font-weight: 500;
+}
+.simples .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto";
+  margin-top: 0;
+}
+.simples .total h2 {
+  color: rgb(58, 57, 57);
+}/*# sourceMappingURL=main.css.map */
